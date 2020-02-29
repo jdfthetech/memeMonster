@@ -1,6 +1,12 @@
 # memeMonster
 ## A bulk file resizer and meme generator
 
+### requirements:
+
+1. python3
+2. PIL
+
+
 ### installation:
 download memeMonster.py and Hack-Bold.ttf to your directory, give memeMonster +x perms
 
