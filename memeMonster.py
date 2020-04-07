@@ -19,8 +19,8 @@ class memeMonsterGUI:
         master.title("memeMonster")
         
         
-        screenWidth = root.winfo_screenwidth()
-        screenHeight = root.winfo_screenheight()
+        screenWidth = master.winfo_screenwidth()
+        screenHeight = master.winfo_screenheight()
         
         # adjust dimensions to middle of screen and make room for box
         
@@ -34,7 +34,7 @@ class memeMonsterGUI:
         
         # specify geometry, must make coords a string normally looks like "490x190+220+200"
         
-        root.geometry("600x240+"+str(xLocation)+"+"+str(yLocation))        
+        master.geometry("600x240+"+str(xLocation)+"+"+str(yLocation))        
 
         # using grid rather than pack to set buttons in correct spot
 
